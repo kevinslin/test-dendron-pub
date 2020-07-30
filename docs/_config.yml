@@ -1,0 +1,16 @@
+# uncomment to preview locally
+#theme: "just-the-docs"
+remote_theme: dendronhq/dendron-jekyll
+title: Dendron
+logo: "/assets/images/logo.png"
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+footer_content: "Copyright &copy; 2020 Thence LLC"
+
+gh_edit_link: false # 
+
+defaults:
+  -
+    scope:
+      path: "notes" # an empty string here means all files in the project
+    values:
+      layout: "default"
